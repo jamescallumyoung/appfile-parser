@@ -8,10 +8,14 @@
   "scripts": {
     "start": "node ./build",
     "build": "tsc",
-    "lint": "eslint ./src",
+    "test": "echo NO TESTS",
+    "lint:check": "eslint ./src",
     "lint:fix": "eslint --fix ./src",
-    "pretty": "prettier --write .",
-    "format": "yarn run lint:fix && yarn run pretty"
+    "pretty:check": "prettier --check .",
+    "pretty:fix": "prettier --write .",
+    "format:check": "yarn run pretty:check && yarn run lint:check",
+    "format:fix": "yarn run pretty:fix && yarn run lint:fix",
+    "preversion": "yarn run format:check && yarn run test"
   },
   "devDependencies": {
     "@types/node": "^14.11.2",

@@ -1,6 +1,6 @@
 {
   "name": "@jych/appfile-parser",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Parse appfiles",
   "author": "James Young <hello@jamesyoung.ch>",
   "license": "MIT",

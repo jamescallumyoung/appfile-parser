@@ -35,6 +35,6 @@
     }
   },
   "lint-staged": {
-    "*": "yarn run format"
+    "*": "yarn run format:fix"
   }
 }

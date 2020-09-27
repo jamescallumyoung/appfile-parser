@@ -27,7 +27,7 @@ _what_ you want, not _where_ it comes from.
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check the
 [issues page](https://github.com/jamescallumyoung/appfile-parser/issues). Contributors should follow the
-[contributing guide](./CONTRIBUTING) and [code of conduct](./CODE_OF_CONDUCT).
+[contributing guide](./CONTRIBUTING.md) and [code of conduct](./CODE_OF_CONDUCT.md).
 
 ## Show your support
 

@@ -16,13 +16,12 @@ _appfile-parser_ enables you to install all of the listed apps in a single comma
 Mixing apps from different package managers is supported (and even encouraged!), so you can focus on
 _what_ you want, not _where_ it comes from.
 
-
 ## Author
 
 👤 **James Young <hello@jamesyoung.ch>**
 
-* Website: https://jamesyoung.ch
-* Github: [@jamescallumyoung](https://github.com/jamescallumyoung)
+- Website: https://jamesyoung.ch
+- Github: [@jamescallumyoung](https://github.com/jamescallumyoung)
 
 ## 🤝 Contributing
 

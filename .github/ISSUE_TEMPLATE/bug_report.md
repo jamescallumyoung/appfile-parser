@@ -4,13 +4,13 @@ about: Report a bug
 title: ''
 labels: bug
 assignees: ''
-
 ---
 
 **Describe the bug**
 A clear and concise description of what the bug is.
 
 **Steps to reproduce**
+
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
@@ -23,12 +23,14 @@ A clear and concise description of what you expected to happen.
 Add any error messages you received.
 
 **System info (please complete the following)**
- - OS: [e.g. macOS]
- - Version [e.g. 22]
+
+- OS: [e.g. macOS]
+- Version [e.g. 22]
 
 **Effected package managers**
- - [ ] apt
- - [ ] snap
+
+- [ ] apt
+- [ ] snap
 
 **Additional context**
 Add any other context about the problem here.

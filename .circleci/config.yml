@@ -1,0 +1,41 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@3.0.0
+
+workflows:
+  version: 2
+  quality-gate:
+    jobs:
+      - lint
+      - pretty
+      - test
+
+jobs:
+  lint:
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - run:
+          command: yarn install --frozen-lockfile
+      - run:
+          command: yarn run lint:check
+  pretty:
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - run:
+          command: yarn install --frozen-lockfile
+      - run:
+          command: yarn run pretty:check
+  test:
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - run:
+          command: yarn install --frozen-lockfile
+      - run:
+          command: yarn run test

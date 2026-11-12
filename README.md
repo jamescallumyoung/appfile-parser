@@ -1,3 +1,5 @@
+> ⚠️ This repo is deprecated and will receive no more updates.
+
 <div align="center">
   <h1><code>appfile-parser</code></h1>
 
